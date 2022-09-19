@@ -30,8 +30,8 @@ void scale(int x, int y) {
     strokeWeight(7);
     stroke(c, y, x);
     fill(100,100,100);
-    ellipse(x, y, 75, 40);
     rect(x+20, y, 50, 45);
+    ellipse(x, y, 75, 40);
     i++;
     j--;
   }
