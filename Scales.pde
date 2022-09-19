@@ -5,17 +5,17 @@ void setup() {
 }
 
 void draw() {
-  boolean a = true;
+  boolean shift = true;
   for(int y = 500; y > -25; y -= 25)
   {
     for(int x = 0; x < 575; x += 75)
     {
-       if(a == true)
+       if(shift == true)
           scale(x - 40, y);
        else
           scale(x-5, y);
     }
-        if(a == true)
+        if(shift == true)
        a = false;
     else
        a = true;
